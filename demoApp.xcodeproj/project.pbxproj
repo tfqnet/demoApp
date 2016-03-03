@@ -15,6 +15,19 @@
 		0CDB2A421C8843E6003B586D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB2A401C8843E6003B586D /* LaunchScreen.storyboard */; };
 		0CDB2A4D1C8843E6003B586D /* demoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A4C1C8843E6003B586D /* demoAppTests.m */; };
 		0CDB2A581C8843E6003B586D /* demoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A571C8843E6003B586D /* demoAppUITests.m */; };
+		0CDB2A691C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */; };
+		0CDB2A6A1C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */; };
+		0CDB2A6B1C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */; };
+		0CDB2A6C1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */; };
+		0CDB2A6D1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */; };
+		0CDB2A6E1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */; };
+		0CDB2A6F1C88454D003B586D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */; };
+		0CDB2A701C88454D003B586D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */; };
+		0CDB2A711C88454D003B586D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */; };
+		0CDB2A731C884606003B586D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB2A721C884606003B586D /* Default-568h@2x.png */; };
+		0CDB2A761C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
+		0CDB2A771C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
+		0CDB2A781C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,12 @@
 		0CDB2A531C8843E6003B586D /* demoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDB2A571C8843E6003B586D /* demoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoAppUITests.m; sourceTree = "<group>"; };
 		0CDB2A591C8843E6003B586D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0CDB2A721C884606003B586D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0CDB2A741C884877003B586D /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		0CDB2A751C884877003B586D /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A6C1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */,
+				0CDB2A691C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */,
+				0CDB2A6F1C88454D003B586D /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A6D1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */,
+				0CDB2A6A1C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */,
+				0CDB2A701C88454D003B586D /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A6E1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */,
+				0CDB2A6B1C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */,
+				0CDB2A711C88454D003B586D /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +109,8 @@
 		0CDB2A261C8843E6003B586D = {
 			isa = PBXGroup;
 			children = (
+				0CDB2A721C884606003B586D /* Default-568h@2x.png */,
+				0CDB2A651C884480003B586D /* Frameworks */,
 				0CDB2A311C8843E6003B586D /* demoApp */,
 				0CDB2A4B1C8843E6003B586D /* demoAppTests */,
 				0CDB2A561C8843E6003B586D /* demoAppUITests */,
@@ -106,6 +136,8 @@
 				0CDB2A381C8843E6003B586D /* ViewController.h */,
 				0CDB2A391C8843E6003B586D /* ViewController.m */,
 				0CDB2A3B1C8843E6003B586D /* Main.storyboard */,
+				0CDB2A741C884877003B586D /* MainTableViewController.h */,
+				0CDB2A751C884877003B586D /* MainTableViewController.m */,
 				0CDB2A3E1C8843E6003B586D /* Assets.xcassets */,
 				0CDB2A401C8843E6003B586D /* LaunchScreen.storyboard */,
 				0CDB2A431C8843E6003B586D /* Info.plist */,
@@ -138,6 +170,16 @@
 				0CDB2A591C8843E6003B586D /* Info.plist */,
 			);
 			path = demoAppUITests;
+			sourceTree = "<group>";
+		};
+		0CDB2A651C884480003B586D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */,
+				0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */,
+				0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDB2A421C8843E6003B586D /* LaunchScreen.storyboard in Resources */,
+				0CDB2A731C884606003B586D /* Default-568h@2x.png in Resources */,
 				0CDB2A3F1C8843E6003B586D /* Assets.xcassets in Resources */,
 				0CDB2A3D1C8843E6003B586D /* Main.storyboard in Resources */,
 			);
@@ -270,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A761C884877003B586D /* MainTableViewController.m in Sources */,
 				0CDB2A3A1C8843E6003B586D /* ViewController.m in Sources */,
 				0CDB2A371C8843E6003B586D /* AppDelegate.m in Sources */,
 				0CDB2A341C8843E6003B586D /* main.m in Sources */,
@@ -280,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A771C884877003B586D /* MainTableViewController.m in Sources */,
 				0CDB2A4D1C8843E6003B586D /* demoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A781C884877003B586D /* MainTableViewController.m in Sources */,
 				0CDB2A581C8843E6003B586D /* demoAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +457,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoApp;
@@ -422,6 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoApp;
@@ -433,6 +487,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoAppTests;
@@ -445,6 +503,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoAppTests;
@@ -456,6 +518,10 @@
 		0CDB2A631C8843E6003B586D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoAppUITests;
@@ -468,6 +534,10 @@
 		0CDB2A641C8843E6003B586D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = demoAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoAppUITests;
