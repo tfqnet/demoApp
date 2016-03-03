@@ -28,6 +28,10 @@
 		0CDB2A761C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
 		0CDB2A771C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
 		0CDB2A781C884877003B586D /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A751C884877003B586D /* MainTableViewController.m */; };
+		0CDB2A7C1C88577C003B586D /* eventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A7B1C88577C003B586D /* eventManager.m */; };
+		0CDB2A7D1C88577C003B586D /* eventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A7B1C88577C003B586D /* eventManager.m */; };
+		0CDB2A7E1C88577C003B586D /* eventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A7B1C88577C003B586D /* eventManager.m */; };
+		0CDB2A801C8857AE003B586D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDB2A7F1C8857AE003B586D /* EventKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,9 @@
 		0CDB2A721C884606003B586D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0CDB2A741C884877003B586D /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		0CDB2A751C884877003B586D /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		0CDB2A7A1C88577C003B586D /* eventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventManager.h; sourceTree = "<group>"; };
+		0CDB2A7B1C88577C003B586D /* eventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventManager.m; sourceTree = "<group>"; };
+		0CDB2A7F1C8857AE003B586D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB2A801C8857AE003B586D /* EventKit.framework in Frameworks */,
 				0CDB2A6C1C88454D003B586D /* FBSDKLoginKit.framework in Frameworks */,
 				0CDB2A691C88454D003B586D /* FBSDKCoreKit.framework in Frameworks */,
 				0CDB2A6F1C88454D003B586D /* FBSDKShareKit.framework in Frameworks */,
@@ -142,6 +150,8 @@
 				0CDB2A401C8843E6003B586D /* LaunchScreen.storyboard */,
 				0CDB2A431C8843E6003B586D /* Info.plist */,
 				0CDB2A321C8843E6003B586D /* Supporting Files */,
+				0CDB2A7A1C88577C003B586D /* eventManager.h */,
+				0CDB2A7B1C88577C003B586D /* eventManager.m */,
 			);
 			path = demoApp;
 			sourceTree = "<group>";
@@ -175,6 +185,7 @@
 		0CDB2A651C884480003B586D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CDB2A7F1C8857AE003B586D /* EventKit.framework */,
 				0CDB2A661C88454D003B586D /* FBSDKCoreKit.framework */,
 				0CDB2A671C88454D003B586D /* FBSDKLoginKit.framework */,
 				0CDB2A681C88454D003B586D /* FBSDKShareKit.framework */,
@@ -317,6 +328,7 @@
 				0CDB2A3A1C8843E6003B586D /* ViewController.m in Sources */,
 				0CDB2A371C8843E6003B586D /* AppDelegate.m in Sources */,
 				0CDB2A341C8843E6003B586D /* main.m in Sources */,
+				0CDB2A7C1C88577C003B586D /* eventManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDB2A771C884877003B586D /* MainTableViewController.m in Sources */,
+				0CDB2A7D1C88577C003B586D /* eventManager.m in Sources */,
 				0CDB2A4D1C8843E6003B586D /* demoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDB2A781C884877003B586D /* MainTableViewController.m in Sources */,
+				0CDB2A7E1C88577C003B586D /* eventManager.m in Sources */,
 				0CDB2A581C8843E6003B586D /* demoAppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +580,7 @@
 				0CDB2A5E1C8843E6003B586D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CDB2A5F1C8843E6003B586D /* Build configuration list for PBXNativeTarget "demoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +589,7 @@
 				0CDB2A611C8843E6003B586D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CDB2A621C8843E6003B586D /* Build configuration list for PBXNativeTarget "demoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +598,7 @@
 				0CDB2A641C8843E6003B586D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

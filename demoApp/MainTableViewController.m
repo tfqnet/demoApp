@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "AppDelegate.h"
 
 
 @interface MainTableViewController ()
@@ -38,6 +39,11 @@
         NSLog(@"not yet");
     }
     
+    [self performSelector:@selector(requestAccessToEvents) withObject:nil afterDelay:0.4];
+    
+    [self loadEventCalendars];
+
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -60,7 +66,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 1;
+    return self.arrCalendars.count;
 }
 
 
@@ -71,6 +77,11 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }    // Configure the cell...
+    
+    EKCalendar *currentCalendar = [self.arrCalendars objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = currentCalendar.title;
+    
     
     return cell;
 }
@@ -119,6 +130,38 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void)requestAccessToEvents{
+    
+    AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    
+    [delegate.eventManager.eventStore requestAccessToEntityType:EKEntityTypeEvent completion:^(BOOL granted, NSError *error) {
+        if (error == nil) {
+            // Store the returned granted value.
+            delegate.eventManager.eventsAccessGranted = granted;
+        }
+        else{
+            // In case of error, just log its description to the debugger.
+            NSLog(@"%@", [error localizedDescription]);
+        }
+    }];
+}
+
+
+
+-(void)loadEventCalendars{
+    // Load all local event calendars.
+    AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    self.arrCalendars = [delegate.eventManager getLocalEventCalendars];
+    NSLog(@"arrcalendar %@", _arrCalendars);
+   
+    
+    // Reload the table view.
+    [self.tableView reloadData];
+}
+
+
+
 
 - (IBAction)addEventBtn:(id)sender {
 }

@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface MainTableViewController : UITableViewController
 - (IBAction)addEventBtn:(id)sender;
 - (IBAction)logoutBtn:(id)sender;
+-(void)requestAccessToEvents;
+
+
+@property (nonatomic, strong) NSArray *arrCalendars;
+
+-(void)loadEventCalendars;
+
+
+
+
 
 @end
