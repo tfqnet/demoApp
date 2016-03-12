@@ -11,6 +11,7 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "AppDelegate.h"
+#import "AddEventViewController.h"
 
 
 @interface MainTableViewController ()
@@ -23,6 +24,20 @@
     [super viewDidLoad];
     
     
+    
+    
+
+    
+    
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     
     if ([FBSDKAccessToken currentAccessToken]) {
         NSLog(@"already in");
@@ -42,14 +57,6 @@
     [self performSelector:@selector(requestAccessToEvents) withObject:nil afterDelay:0.4];
     
     [self loadEventCalendars];
-
-    
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -83,7 +90,26 @@
     cell.textLabel.text = currentCalendar.title;
     
     
+    
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    EKEvent *currentCalendar = [self.arrCalendars objectAtIndex:indexPath.row];
+    
+    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main"
+                                                  bundle:nil];
+    AddEventViewController *addvc = [sb instantiateViewControllerWithIdentifier:@"addview"];
+    
+    addvc.cal = currentCalendar;
+    
+    [self.navigationController pushViewController:addvc animated:YES];
+    
+    
+
+    
+    
 }
 
 
@@ -153,7 +179,7 @@
     // Load all local event calendars.
     AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     self.arrCalendars = [delegate.eventManager getLocalEventCalendars];
-    NSLog(@"arrcalendar %@", _arrCalendars);
+    //NSLog(@"arrcalendar %@", _arrCalendars);
    
     
     // Reload the table view.
@@ -164,6 +190,12 @@
 
 
 - (IBAction)addEventBtn:(id)sender {
+    UIStoryboard*  sb = [UIStoryboard storyboardWithName:@"Main"
+                                                  bundle:nil];
+    AddEventViewController *addvc = [sb instantiateViewControllerWithIdentifier:@"addview"];
+    addvc.arrCalendars = self.arrCalendars;
+    [self.navigationController pushViewController:addvc animated:YES];
+    
 }
 
 - (IBAction)logoutBtn:(id)sender {

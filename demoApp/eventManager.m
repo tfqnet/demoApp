@@ -43,28 +43,40 @@
     NSArray *allCalendars = [self.eventStore calendarsForEntityType:EKEntityTypeEvent];
     NSMutableArray *localCalendars = [[NSMutableArray alloc] init];
     
+    
+    
+    
+    
     for (int i=0; i<allCalendars.count; i++) {
         EKCalendar *currentCalendar = [allCalendars objectAtIndex:i];
-        if (currentCalendar.type == EKCalendarTypeLocal || [currentCalendar.title isEqualToString:@"Calendar"]) {
-            [localCalendars addObject:currentCalendar];
-            
+       // NSLog(@"curren %@", currentCalendar);
+        if (currentCalendar.type==EKCalendarTypeCalDAV && [currentCalendar.title isEqualToString:@"tfqnet@gmail.com"]) {
+           //
+        //if(currentCalendar.type == EKCalendarTypeLocal){
+        
+        [localCalendars addObject:currentCalendar];
+         //   NSLog(@"cal %@", currentCalendar);
             
         }
     }
     
+    //return (NSArray *)localCalendars;
     
    
-    int yearSeconds = 365 * (60 * 60 * 24);
-    NSPredicate *predicate = [self.eventStore predicateForEventsWithStartDate:[NSDate dateWithTimeIntervalSinceNow:-yearSeconds] endDate:[NSDate dateWithTimeIntervalSinceNow:yearSeconds] calendars:localCalendars];
+   int yearSeconds = 365 * (60 * 60 * 24);
+    int lastMonth = 30 * (60 * 60 * 24);
+    NSPredicate *predicate = [self.eventStore predicateForEventsWithStartDate:[NSDate dateWithTimeIntervalSinceNow:-lastMonth] endDate:[NSDate dateWithTimeIntervalSinceNow:yearSeconds] calendars:localCalendars];
     
     // Get an array with all events.
     NSArray *eventsArray = [self.eventStore eventsMatchingPredicate:predicate];
     
     // Sort the array based on the start date.
     eventsArray = [eventsArray sortedArrayUsingSelector:@selector(compareStartDateWithEvent:)];
+   
     
-    
+    //NSLog(@"events %@",eventsArray);
     return eventsArray;
+    
 }
 /*
 
@@ -97,4 +109,7 @@
 }
 
 */
+
+
+
 @end

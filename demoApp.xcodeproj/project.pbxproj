@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C9FF2911C9075DF00CAA309 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2901C9075DF00CAA309 /* AddEventViewController.m */; };
+		0C9FF2921C9075DF00CAA309 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2901C9075DF00CAA309 /* AddEventViewController.m */; };
+		0C9FF2931C9075DF00CAA309 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2901C9075DF00CAA309 /* AddEventViewController.m */; };
+		0C9FF2961C90999D00CAA309 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FF2951C90999D00CAA309 /* placeholder.png */; };
+		0C9FF2971C90999D00CAA309 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FF2951C90999D00CAA309 /* placeholder.png */; };
+		0C9FF2981C90999D00CAA309 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9FF2951C90999D00CAA309 /* placeholder.png */; };
+		0C9FF29B1C909B5800CAA309 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF29A1C909B5800CAA309 /* DatePickerViewController.m */; };
+		0C9FF29C1C909B5800CAA309 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF29A1C909B5800CAA309 /* DatePickerViewController.m */; };
+		0C9FF29D1C909B5800CAA309 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF29A1C909B5800CAA309 /* DatePickerViewController.m */; };
+		0C9FF2B31C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A01C90A9F400CAA309 /* AbstractActionSheetPicker.m */; };
+		0C9FF2B41C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A01C90A9F400CAA309 /* AbstractActionSheetPicker.m */; };
+		0C9FF2B51C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A01C90A9F400CAA309 /* AbstractActionSheetPicker.m */; };
+		0C9FF2B61C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A21C90A9F400CAA309 /* ActionSheetCustomPicker.m */; };
+		0C9FF2B71C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A21C90A9F400CAA309 /* ActionSheetCustomPicker.m */; };
+		0C9FF2B81C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A21C90A9F400CAA309 /* ActionSheetCustomPicker.m */; };
+		0C9FF2B91C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A51C90A9F400CAA309 /* ActionSheetDatePicker.m */; };
+		0C9FF2BA1C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A51C90A9F400CAA309 /* ActionSheetDatePicker.m */; };
+		0C9FF2BB1C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A51C90A9F400CAA309 /* ActionSheetDatePicker.m */; };
+		0C9FF2BC1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A71C90A9F400CAA309 /* ActionSheetDistancePicker.m */; };
+		0C9FF2BD1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A71C90A9F400CAA309 /* ActionSheetDistancePicker.m */; };
+		0C9FF2BE1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A71C90A9F400CAA309 /* ActionSheetDistancePicker.m */; };
+		0C9FF2BF1C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A91C90A9F400CAA309 /* ActionSheetLocalePicker.m */; };
+		0C9FF2C01C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A91C90A9F400CAA309 /* ActionSheetLocalePicker.m */; };
+		0C9FF2C11C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2A91C90A9F400CAA309 /* ActionSheetLocalePicker.m */; };
+		0C9FF2C21C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AB1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m */; };
+		0C9FF2C31C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AB1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m */; };
+		0C9FF2C41C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AB1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m */; };
+		0C9FF2C51C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AE1C90A9F400CAA309 /* ActionSheetStringPicker.m */; };
+		0C9FF2C61C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AE1C90A9F400CAA309 /* ActionSheetStringPicker.m */; };
+		0C9FF2C71C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2AE1C90A9F400CAA309 /* ActionSheetStringPicker.m */; };
+		0C9FF2C81C90A9F400CAA309 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B01C90A9F400CAA309 /* DistancePickerView.m */; };
+		0C9FF2C91C90A9F400CAA309 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B01C90A9F400CAA309 /* DistancePickerView.m */; };
+		0C9FF2CA1C90A9F400CAA309 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B01C90A9F400CAA309 /* DistancePickerView.m */; };
+		0C9FF2CB1C90A9F400CAA309 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B21C90A9F400CAA309 /* SWActionSheet.m */; };
+		0C9FF2CC1C90A9F400CAA309 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B21C90A9F400CAA309 /* SWActionSheet.m */; };
+		0C9FF2CD1C90A9F400CAA309 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2B21C90A9F400CAA309 /* SWActionSheet.m */; };
+		0C9FF2D81C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2D11C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.m */; };
+		0C9FF2D91C934FA400CAA309 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2D31C934FA400CAA309 /* TPKeyboardAvoidingScrollView.m */; };
+		0C9FF2DA1C934FA400CAA309 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2D51C934FA400CAA309 /* TPKeyboardAvoidingTableView.m */; };
+		0C9FF2DB1C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9FF2D71C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		0CDB2A341C8843E6003B586D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A331C8843E6003B586D /* main.m */; };
 		0CDB2A371C8843E6003B586D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A361C8843E6003B586D /* AppDelegate.m */; };
 		0CDB2A3A1C8843E6003B586D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB2A391C8843E6003B586D /* ViewController.m */; };
@@ -52,6 +92,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9FF28F1C9075DF00CAA309 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		0C9FF2901C9075DF00CAA309 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		0C9FF2951C90999D00CAA309 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		0C9FF2991C909B5800CAA309 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		0C9FF29A1C909B5800CAA309 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		0C9FF29F1C90A9F400CAA309 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		0C9FF2A01C90A9F400CAA309 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		0C9FF2A11C90A9F400CAA309 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		0C9FF2A21C90A9F400CAA309 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		0C9FF2A31C90A9F400CAA309 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		0C9FF2A41C90A9F400CAA309 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		0C9FF2A51C90A9F400CAA309 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		0C9FF2A61C90A9F400CAA309 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		0C9FF2A71C90A9F400CAA309 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		0C9FF2A81C90A9F400CAA309 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		0C9FF2A91C90A9F400CAA309 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		0C9FF2AA1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		0C9FF2AB1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		0C9FF2AC1C90A9F400CAA309 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		0C9FF2AD1C90A9F400CAA309 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		0C9FF2AE1C90A9F400CAA309 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		0C9FF2AF1C90A9F400CAA309 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		0C9FF2B01C90A9F400CAA309 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		0C9FF2B11C90A9F400CAA309 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		0C9FF2B21C90A9F400CAA309 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		0C9FF2D01C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		0C9FF2D11C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		0C9FF2D21C934FA400CAA309 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		0C9FF2D31C934FA400CAA309 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0C9FF2D41C934FA400CAA309 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		0C9FF2D51C934FA400CAA309 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		0C9FF2D61C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		0C9FF2D71C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		0CDB2A2F1C8843E6003B586D /* demoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDB2A331C8843E6003B586D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CDB2A351C8843E6003B586D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,12 +187,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C9FF29E1C90A9E100CAA309 /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FF29F1C90A9F400CAA309 /* AbstractActionSheetPicker.h */,
+				0C9FF2A01C90A9F400CAA309 /* AbstractActionSheetPicker.m */,
+				0C9FF2A11C90A9F400CAA309 /* ActionSheetCustomPicker.h */,
+				0C9FF2A21C90A9F400CAA309 /* ActionSheetCustomPicker.m */,
+				0C9FF2A31C90A9F400CAA309 /* ActionSheetCustomPickerDelegate.h */,
+				0C9FF2A41C90A9F400CAA309 /* ActionSheetDatePicker.h */,
+				0C9FF2A51C90A9F400CAA309 /* ActionSheetDatePicker.m */,
+				0C9FF2A61C90A9F400CAA309 /* ActionSheetDistancePicker.h */,
+				0C9FF2A71C90A9F400CAA309 /* ActionSheetDistancePicker.m */,
+				0C9FF2A81C90A9F400CAA309 /* ActionSheetLocalePicker.h */,
+				0C9FF2A91C90A9F400CAA309 /* ActionSheetLocalePicker.m */,
+				0C9FF2AA1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.h */,
+				0C9FF2AB1C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m */,
+				0C9FF2AC1C90A9F400CAA309 /* ActionSheetPicker.h */,
+				0C9FF2AD1C90A9F400CAA309 /* ActionSheetStringPicker.h */,
+				0C9FF2AE1C90A9F400CAA309 /* ActionSheetStringPicker.m */,
+				0C9FF2AF1C90A9F400CAA309 /* DistancePickerView.h */,
+				0C9FF2B01C90A9F400CAA309 /* DistancePickerView.m */,
+				0C9FF2B11C90A9F400CAA309 /* SWActionSheet.h */,
+				0C9FF2B21C90A9F400CAA309 /* SWActionSheet.m */,
+			);
+			name = picker;
+			sourceTree = "<group>";
+		};
+		0C9FF2CF1C9329D600CAA309 /* TPKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0C9FF2D01C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.h */,
+				0C9FF2D11C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.m */,
+				0C9FF2D21C934FA400CAA309 /* TPKeyboardAvoidingScrollView.h */,
+				0C9FF2D31C934FA400CAA309 /* TPKeyboardAvoidingScrollView.m */,
+				0C9FF2D41C934FA400CAA309 /* TPKeyboardAvoidingTableView.h */,
+				0C9FF2D51C934FA400CAA309 /* TPKeyboardAvoidingTableView.m */,
+				0C9FF2D61C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				0C9FF2D71C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		0CDB2A261C8843E6003B586D = {
 			isa = PBXGroup;
 			children = (
+				0CDB2A311C8843E6003B586D /* demoApp */,
 				0CDB2A721C884606003B586D /* Default-568h@2x.png */,
 				0CDB2A651C884480003B586D /* Frameworks */,
-				0CDB2A311C8843E6003B586D /* demoApp */,
 				0CDB2A4B1C8843E6003B586D /* demoAppTests */,
 				0CDB2A561C8843E6003B586D /* demoAppUITests */,
 				0CDB2A301C8843E6003B586D /* Products */,
@@ -139,11 +255,18 @@
 		0CDB2A311C8843E6003B586D /* demoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C9FF2CF1C9329D600CAA309 /* TPKeyboard */,
+				0C9FF29E1C90A9E100CAA309 /* picker */,
+				0C9FF2951C90999D00CAA309 /* placeholder.png */,
 				0CDB2A351C8843E6003B586D /* AppDelegate.h */,
 				0CDB2A361C8843E6003B586D /* AppDelegate.m */,
 				0CDB2A381C8843E6003B586D /* ViewController.h */,
 				0CDB2A391C8843E6003B586D /* ViewController.m */,
 				0CDB2A3B1C8843E6003B586D /* Main.storyboard */,
+				0C9FF2991C909B5800CAA309 /* DatePickerViewController.h */,
+				0C9FF29A1C909B5800CAA309 /* DatePickerViewController.m */,
+				0C9FF28F1C9075DF00CAA309 /* AddEventViewController.h */,
+				0C9FF2901C9075DF00CAA309 /* AddEventViewController.m */,
 				0CDB2A741C884877003B586D /* MainTableViewController.h */,
 				0CDB2A751C884877003B586D /* MainTableViewController.m */,
 				0CDB2A3E1C8843E6003B586D /* Assets.xcassets */,
@@ -260,6 +383,7 @@
 				TargetAttributes = {
 					0CDB2A2E1C8843E6003B586D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TEF249YVAA;
 					};
 					0CDB2A471C8843E6003B586D = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -299,6 +423,7 @@
 				0CDB2A421C8843E6003B586D /* LaunchScreen.storyboard in Resources */,
 				0CDB2A731C884606003B586D /* Default-568h@2x.png in Resources */,
 				0CDB2A3F1C8843E6003B586D /* Assets.xcassets in Resources */,
+				0C9FF2961C90999D00CAA309 /* placeholder.png in Resources */,
 				0CDB2A3D1C8843E6003B586D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9FF2971C90999D00CAA309 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9FF2981C90999D00CAA309 /* placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +451,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9FF2BC1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */,
+				0C9FF2D81C934FA400CAA309 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				0C9FF2C21C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */,
 				0CDB2A761C884877003B586D /* MainTableViewController.m in Sources */,
+				0C9FF2B91C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */,
+				0C9FF2C51C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */,
+				0C9FF29B1C909B5800CAA309 /* DatePickerViewController.m in Sources */,
+				0C9FF2C81C90A9F400CAA309 /* DistancePickerView.m in Sources */,
 				0CDB2A3A1C8843E6003B586D /* ViewController.m in Sources */,
+				0C9FF2DB1C934FA400CAA309 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				0CDB2A371C8843E6003B586D /* AppDelegate.m in Sources */,
 				0CDB2A341C8843E6003B586D /* main.m in Sources */,
 				0CDB2A7C1C88577C003B586D /* eventManager.m in Sources */,
+				0C9FF2DA1C934FA400CAA309 /* TPKeyboardAvoidingTableView.m in Sources */,
+				0C9FF2CB1C90A9F400CAA309 /* SWActionSheet.m in Sources */,
+				0C9FF2911C9075DF00CAA309 /* AddEventViewController.m in Sources */,
+				0C9FF2BF1C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */,
+				0C9FF2D91C934FA400CAA309 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				0C9FF2B31C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */,
+				0C9FF2B61C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +478,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9FF2C61C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */,
+				0C9FF2BD1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */,
+				0C9FF2C01C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */,
 				0CDB2A771C884877003B586D /* MainTableViewController.m in Sources */,
+				0C9FF2C91C90A9F400CAA309 /* DistancePickerView.m in Sources */,
+				0C9FF2921C9075DF00CAA309 /* AddEventViewController.m in Sources */,
 				0CDB2A7D1C88577C003B586D /* eventManager.m in Sources */,
+				0C9FF2CC1C90A9F400CAA309 /* SWActionSheet.m in Sources */,
+				0C9FF2C31C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */,
+				0C9FF2B41C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */,
+				0C9FF29C1C909B5800CAA309 /* DatePickerViewController.m in Sources */,
+				0C9FF2BA1C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */,
 				0CDB2A4D1C8843E6003B586D /* demoAppTests.m in Sources */,
+				0C9FF2B71C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +499,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9FF2C71C90A9F400CAA309 /* ActionSheetStringPicker.m in Sources */,
+				0C9FF2BE1C90A9F400CAA309 /* ActionSheetDistancePicker.m in Sources */,
+				0C9FF2C11C90A9F400CAA309 /* ActionSheetLocalePicker.m in Sources */,
 				0CDB2A781C884877003B586D /* MainTableViewController.m in Sources */,
+				0C9FF2CA1C90A9F400CAA309 /* DistancePickerView.m in Sources */,
+				0C9FF2931C9075DF00CAA309 /* AddEventViewController.m in Sources */,
 				0CDB2A7E1C88577C003B586D /* eventManager.m in Sources */,
+				0C9FF2CD1C90A9F400CAA309 /* SWActionSheet.m in Sources */,
+				0C9FF2C41C90A9F400CAA309 /* ActionSheetMultipleStringPicker.m in Sources */,
+				0C9FF2B51C90A9F400CAA309 /* AbstractActionSheetPicker.m in Sources */,
+				0C9FF29D1C909B5800CAA309 /* DatePickerViewController.m in Sources */,
+				0C9FF2BB1C90A9F400CAA309 /* ActionSheetDatePicker.m in Sources */,
 				0CDB2A581C8843E6003B586D /* demoAppUITests.m in Sources */,
+				0C9FF2B81C90A9F400CAA309 /* ActionSheetCustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,14 +635,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = my.com.petronas.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0806cfa0-7b2c-4405-a278-5df148b80d0c";
 			};
 			name = Debug;
 		};
@@ -486,14 +652,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = my.com.company.demoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = my.com.petronas.demoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0806cfa0-7b2c-4405-a278-5df148b80d0c";
 			};
 			name = Release;
 		};
