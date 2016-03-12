@@ -113,27 +113,12 @@
     
     NSDateFormatter *datFormatter = [[NSDateFormatter alloc] init];
     [datFormatter setDateFormat:@"yyyy-MM-dd hh:mm a"];
-    
-   // NSDateFormatter *newFormat = [[NSDateFormatter alloc]init];
-    //[newFormat setDateFormat:@"yyyy-M-DD HH:mm:ss Z"];
-    
-   // NSDate *startdateFromlbl = [datFormatter dateFromString:startDate.text];
-    //NSString *startdateconvert = [newFormat stringFromDate:startdateFromlbl];
     NSLog(@"star %@",startDate.text);
-    
-    
-    
-    
     
     AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     
     
     
-    
-    
-    
-    
-    //EKEventStore *store = [EKEventStore new];
     [delegate.eventManager.eventStore requestAccessToEntityType:EKEntityTypeEvent completion:^(BOOL granted, NSError *error) {
         if (!granted) { return; }
         EKEvent *event = [EKEvent eventWithEventStore:delegate.eventManager.eventStore];
@@ -145,37 +130,20 @@
         event.endDate = [datFormatter dateFromString:endDate.text];
         event.calendar = [delegate.eventManager.eventStore defaultCalendarForNewEvents];
         NSError *err = nil;
-       
+        
         NSLog(@"%@",event.startDate);
         
         
         
-       NSPredicate *predicate = [delegate.eventManager.eventStore predicateForEventsWithStartDate:event.startDate endDate:event.endDate calendars:self.arrCalendars];
+        NSPredicate *predicate = [delegate.eventManager.eventStore predicateForEventsWithStartDate:event.startDate endDate:event.endDate calendars:self.arrCalendars];
         
-
+        
         // Get an array with all events.
         NSArray *eventsArray = [delegate.eventManager.eventStore eventsMatchingPredicate:predicate];
         NSLog(@"event %@",eventsArray);
         
-        /*
-        for(EKEvent *ev in self.arrCalendars){
-            if([self date:event.startDate isBetweenDate:ev.startDate andDate:ev.endDate]==YES)
-            {
-                 NSLog(@"same datetime");
-                break;
-            }
-            else{
-         
-                break;
-            }
-            
-        }
-        */
         
         [delegate.eventManager.eventStore saveEvent:event span:EKSpanThisEvent commit:YES error:&err];
-        
-        
-        
         
         
         NSLog(@"added %@", err);
@@ -188,10 +156,6 @@
     
     
     NSLog(@"here");
-    
-    //picImgView.image = image;
-    
-    
     
     [self dismissViewControllerAnimated:YES completion:^{
         UIImage * image = [info objectForKey:UIImagePickerControllerOriginalImage];
